@@ -39,24 +39,23 @@ Install Playwright and its dependencies:
    ```
 
 ## Project Structure
+```plaintext
 kitabisa/
 ├── tests/
-│   ├── API/               # Contains API test cases
+│   ├── API/
 │   │   ├── login-successful.spec.ts
 │   │   ├── login-unsuccessful.spec.ts
-│   │   ├── patch-user.spec.ts
-│   │   ├── register-successful.spec.ts
-│   │   ├── register-unsuccessful.spec.ts
 │   │   └── single-user.spec.ts
-│   ├── Web/               # Contains Web UI test cases
+│   ├── Web/
 │   │   ├── TC-001.spec.ts
 │   │   ├── TC-002.spec.ts
 │   │   └── TC-003.spec.ts
-├── .gitignore             # Files and folders to exclude from Git
-├── package-lock.json      # Lock file for npm dependencies
-├── package.json           # Project dependencies and scripts
-├── playwright.config.ts   # Playwright configuration file
-└── README.md              # Project documentation
+├── .gitignore
+├── package-lock.json
+├── package.json
+├── playwright.config.ts
+└── README.md
+
 
 ## Running Tests
 ### Web Tests
