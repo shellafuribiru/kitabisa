@@ -55,8 +55,7 @@ kitabisa/
 ├── package.json
 ├── playwright.config.ts
 └── README.md
-
-
+```
 
 ## Running Tests
 ### Web Tests
