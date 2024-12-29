@@ -94,3 +94,8 @@ Playwright provides detailed HTML reports for all test runs. After executing tes
 ```bash
 npx playwright show-report
 ```
+
+## Contact
+For questions or feedback, feel free to reach out:
+Author: shellafuribiru
+Email: shellafuribirumardika@gmail.com
