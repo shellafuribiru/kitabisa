@@ -21,6 +21,7 @@ test('TC-001', async ({ page }) => {
   await page.keyboard.type('083807478671', { delay: 500 }); 
 
   //Click the "Masuk" button to proceed
+  await page.waitForTimeout(500);
   const masuk_button = page.locator('#button-login-with-otp-code');
   await masuk_button.click();
 
